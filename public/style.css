@@ -1,0 +1,130 @@
+/*
+ * Hi! I'm your stylesheet! I've got some sensible defaults here,
+ * but feel free to change me to your heart's content!
+ */
+
+
+* {
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+
+
+body {
+  background:  space;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
+
+nav {
+  align-items: center;
+  background-color: #333333;
+  color: #c0c0c0;
+  display: flex;
+  height: 80px;
+  padding: 10px;
+  border-bottom-left-radius:20% 20%;
+  border-bottom-right-radius:20% 20%;
+  justify-content: center;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  color: green;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 2em;
+}
+.nav-item {
+  height: 1.5em;
+  margin: 0 1.5em 0 0;
+}
+
+.nav-item a {
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+.nav-item a:hover {
+  color: #202b47;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: #d3d3d3;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.Card {
+	width: 300px;
+	padding: 10px;
+	margin: 1rem;
+	box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+	text-align: center;
+	background-color:whitesmoke;
+	border-radius: 3px;
+}
+
+.TextCenter {
+	text-align: center;
+}
+.Allcards {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+  
+}
+
+.SingleCardDisplay {
+  justify-content: center;
+}
+
+.Card-data {
+	font-size: 80%;
+}
+
+.Card-title {
+	margin-bottom: 1rem;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.Card-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	background-color: #eceff1;
+	border-radius: 3px;
+	margin-bottom: 1rem;
+}
+.Card img {
+	transition: all ease 500ms;
+  transform: scale(.8);
+}
+.Card .PicLink img:hover  {
+	transform: scale(1.10);
+	opacity: 0.7;
+}
+
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
